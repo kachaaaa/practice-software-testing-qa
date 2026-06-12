@@ -16,13 +16,13 @@ The project demonstrates manual testing techniques, professional documentation v
 
 ## 📋 Project Structure & Artifacts
 
-All QA deliverables are logically structured into specialized directories:
+All QA deliverables are logically structured into specialized directories. Click the links below to view the detailed documentation:
 
-* 📂 **`registration-form/test-cases/`**
-  * `level_1_general_validation.md` — Happy Path testing, mandatory field verification, and basic UI element behavior.
-  * *In Progress* — Level 2 advanced front-end field masking, boundary value analysis, and password complexity criteria.
-* 📂 **`registration-form/bug-reports/`**
-  * `BUG-001_dob_missing_highlight.md` — Defect report detailing missing field synchronization during age validation errors.
+* 📂 **[registration-form/test-cases/](./registration-form/test-cases/)**
+  * 📄 [level_1_general_validation.md](./registration-form/test-cases/level_1_general_validation.md) — Happy Path testing, mandatory field verification, and basic UI element behavior.
+  * 📄 [level_2_advanced_validation.md](./registration-form/test-cases/level_2_advanced_validation.md) — Advanced front-end field masking, boundary value analysis, and password complexity criteria.
+* 📂 **[registration-form/bug-reports/](./registration-form/bug-reports/)**
+  * 📄 [BUG-001_dob_missing_highlight.md](./registration-form/bug-reports/BUG-001_dob_missing_highlight.md) — Defect report detailing missing field synchronization during age validation errors.
 
 ---
 
