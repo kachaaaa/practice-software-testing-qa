@@ -20,9 +20,9 @@ All QA deliverables are logically structured into specialized directories. Click
 
 * 📂 **[registration-form/test-cases/](./registration-form/test-cases/)**
   * 📄 [level_1_general_validation.md](./registration-form/test-cases/level_1_general_validation.md) — Happy Path testing, mandatory field verification, and basic UI element behavior.
-  * 📄 [level_2_advanced_validation.md](./registration-form/test-cases/level_2_advanced_validation.md) — Advanced front-end field masking, boundary value analysis, and password complexity criteria.
-* 📂 **[registration-form/bug-reports/](./registration-form/bug-reports/)**
-  * 📄 [BUG-001_dob_missing_highlight.md](./registration-form/bug-reports/BUG-001_dob_missing_highlight.md) — Defect report detailing missing field synchronization during age validation errors.
+  * 📄 [level_2_negative_ui_validation.md](./registration-form/test-cases/level_2_negative_ui_validation.md) — Advanced front-end field masking, boundary value analysis, and password complexity criteria.
+* 📂 **[registration-form/](./registration-form/)**
+  * 📄 [BUG-001_dob_missing_highlight.md](./registration-form/BUG-001_dob_missing_highlight.md) — Defect report detailing missing field synchronization during age validation errors.
 
 ---
 
