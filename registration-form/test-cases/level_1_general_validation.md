@@ -6,7 +6,7 @@
 ---
 
 ## Item 1.1 Successful registration when all fields are filled with valid data
-* **Test Data:** ```text
+* **Test Data:** 
   First Name : John | Last Name : Doe 
   DoB : 1990-05-15 | Address : 123 Main Street 
   Postcode : 10001 | City/State : New York 
