@@ -30,7 +30,6 @@ Expected Result (Data Integrity Checklist):
 3.Primary Key Generation: The id field is automatically generated, unique, and serves as the internal identifier.
 
 
----
 
 ## DB-002: Security Verification — Password Hashing Check
 
