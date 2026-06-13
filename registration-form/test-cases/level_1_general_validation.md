@@ -10,7 +10,7 @@
   First Name : John | Last Name : Doe 
   DoB : 1990-05-15 | Address : 123 Main Street 
   Postcode : 10001 | City/State : New York 
-  Country : United States | Phone: +12125550199
+  Country : United States | Phone: 12125550199
   Email : john.doe.test@gmail.com | Password : Qwerty12345!
 
 𝗘𝘅𝗽𝗲𝗰𝘁𝗲𝗱 𝗥𝗲𝘀𝘂𝗹𝘁 (𝗨𝗜): The fields accept values ​​without validation errors (no red highlights or error text). After clicking the "Register" button, a successful redirect to the profile page occurs.
