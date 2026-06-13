@@ -23,6 +23,7 @@ All QA deliverables are logically structured into specialized directories. Click
   * 📄 [level_2_negative_ui_validation.md](./registration-form/test-cases/level_2_negative_ui_validation.md) — Advanced front-end field masking, boundary value analysis, and password complexity criteria.
 * 📂 **[registration-form/](./registration-form/)**
   * 📄 [BUG-001_dob_missing_highlight.md](./registration-form/BUG-001_dob_missing_highlight.md) — Defect report detailing missing field synchronization during age validation errors.
+  * 📄 [database_verification.md](./registration-form/database_verification.md) — Database integration verification suite containing backend SQL integrity tests and password hashing checks based on Item 1.1.
 
 ---
 
