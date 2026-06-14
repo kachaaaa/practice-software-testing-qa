@@ -7,16 +7,19 @@
 
 ## Item 1.1 Successful registration when all fields are filled with valid data
 * **Test Data:**
-  1. First Name : John
-  2. Last Name : Doe 
-  3. DoB : 1990-05-15
-  4. Address : 123 Main Street 
-  5. Postcode : 10001
-  6. City/State : New York 
-  7. Country : United States
-  8. Phone: 12125550199
-  9. Email : `john.doe.test@gmail.com`
-  10. Password : `Qwerty12345!`
+
+1. First name: John
+2. Last name : Doe
+3. DoB : 1990-05-15
+4. Address : 123 Main Street
+5. Postcode : 10001
+6. City/State : New York
+7. Country : United States 
+8. Phone : 12125550199
+9. Email : `john.doe.test@gmail.com`
+10. Password : `Qwerty12345!`
+   
+
 
 **Expected Result (UI)**: The fields accept values ​​without validation errors **(no red highlights or error text)**. After clicking the **"Register"** button, a successful redirect to the profile page occurs.
 
