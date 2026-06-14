@@ -84,7 +84,7 @@
 
 1. Go to the Sign In page.
 2. Enter the data according to the scenarios above.
-3. Click the **Login** button.
+3. Click the **"Login"** button.
 
 **Expected Result:**
 
