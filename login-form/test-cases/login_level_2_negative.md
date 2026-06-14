@@ -51,3 +51,24 @@
 
 1. The form blocks sybmission.
 2. The system displays a specific validation error message: **Email is required**.
+
+
+**Item 2.4**: Attempt to login with invalid Email format (Field Mask Validation) 
+
+**Test Scenarios:** 
+
+1. **Missing "@" symbol:** `john.doe.testgmail.com`
+2. **Missing domain extension:** `john.doe.test@`
+
+ **Steps**:
+
+ 1. Go to the Sign In page.
+ 2. Enter an invalid email format into the Email field according to the scenarios above.
+ 3. Enter the valid password `Qwerty12345!`.
+ 4. Click the **Login** button.
+
+**Expected Result (UI):**
+
+1. The form blocks submission.
+2. The system displays the specific validation error message: **Email format is invalid**.
+
