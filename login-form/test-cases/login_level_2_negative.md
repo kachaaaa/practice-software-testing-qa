@@ -50,7 +50,7 @@
 **Expected Result (UI):**
 
 1. The form blocks sybmission.
-2. The system displays a specific validation error message: **Email is required**.
+2. The system displays a specific validation error message: **"Email is required"**.
 
 
 **Item 2.4**: Attempt to login with invalid Email format (Field Mask Validation) 
@@ -70,5 +70,23 @@
 **Expected Result (UI):**
 
 1. The form blocks submission.
-2. The system displays the specific validation error message: **Email format is invalid**.
+2. The system displays the specific validation error message: **"Email format is invalid"**.
 
+
+**Item 2.5**: Attempt to login with incorrect credentials (Non-existing user / Wrong password)
+
+**Test Scenarios:**
+
+1. **Wrong Password:** Enter registered email `john.doe.test@gmail.com` and an incorrect password `WrongPassword123!`.
+2. **Non-existing User:** Enter an unregistered email `not.exist.qa@gmail.com` and any password.
+
+**Steps:**
+
+1. Go to the Sign In page.
+2. Enter the data according to the scenarios above.
+3. Click the **Login** button.
+
+**Expected Result:**
+
+1. The form blocks submission.
+2. The system displays a generic error message: **"Invalid email or password"** (protecting the system from user enumeration attacs).
