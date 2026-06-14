@@ -1,6 +1,8 @@
 Item 1.1: Successful authorization (Login) with valid credentials.
-Test Data: Email: john.doe.test@gmail.com
-Password: Qwerty12345!
+Test Data: 
+
+1. Email: john.doe.test@gmail.com
+2. Password: Qwerty12345!
 
 Steps:
 1. Over the open login form (Sign In page).
