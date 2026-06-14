@@ -45,7 +45,7 @@
 1. Go to the Sign In page.
 2. Leave the Email field completely blank.
 3. Enter the valid password `Qwerty12345!` into the Password field.
-4. Click the **Login** button.
+4. Click the **"Login"** button.
 
 **Expected Result (UI):**
 
