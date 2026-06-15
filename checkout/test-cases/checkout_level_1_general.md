@@ -65,3 +65,22 @@
 
   1. The **"proceed to checkout"** button is strictly disabled.
   2. The system blocks the transition to the Payment step, requiring all mandatory location data to be present.
+
+---
+
+## Item 1.2: Manually edit automatically filled address fields
+
+**Pre-conditions:** User is in Guest Mode and has proceeded to the "Billing Address" step.
+
+**Steps:**
+
+  1. Select a country, enter a valid **Postal code** (e.g., `10001`) and **House number** (e.g., `123`) to trigger the Address Autocomplete.
+  2. Wait for the system to fill in the *street, city, and state* fields.
+  3. Click inside the **street** or **city** field, clear a part of the text, and manually type custom characters (e.g., change the street name).
+  4. Check the availability of the "proceed to checkout" button.
+
+**Expected Result (UI):**
+
+  1. The automatically filled fields (*street, city, state*) are fully editable and not restricted to Read-only mode.
+  2. The user can successfully modify the text inside these fields.
+  3. The **"proceed to checkout"** button remains active (green) and clickable, allowing the user to advance with the manually adjusted address.
