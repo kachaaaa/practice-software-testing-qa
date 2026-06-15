@@ -38,7 +38,7 @@
 
 **Test Data**: 
 1. Email: **(leave completely blank)**
-2. Password : `Qwerty12345!`
+2. Password : `J0hnDoe_Test2026!`
 
 **Steps**: 
 
@@ -64,7 +64,7 @@
 
  1. Go to the Sign In page.
  2. Enter an invalid email format into the Email field according to the scenarios above.
- 3. Enter the valid password `Qwerty12345!`.
+ 3. Enter the valid password `J0hnDoe_Test2026!`.
  4. Click the **Login** button.
 
 **Expected Result (UI):**
