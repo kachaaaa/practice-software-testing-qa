@@ -17,7 +17,7 @@
 7. Country : United States 
 8. Phone : 12125550199
 9. Email : `john.doe.test@gmail.com`
-10. Password : `Qwerty12345!`
+10. Password : `J0hnDoe_Test2026!`
    
 
 
