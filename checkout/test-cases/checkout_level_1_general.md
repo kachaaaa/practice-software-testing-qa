@@ -1,6 +1,7 @@
 # Test Cases. Level 1: General Functional & Happy Path (UI)
 
 **Target System under Test (SUT):** Practice Software Testing
+
 **Testing Scope:** Checkout Process — Guest Mode Purchase with Cash on Delivery
 
 ## Item 1.1: Complete a successful purchase as a Guest via Cash on Delivery
