@@ -1,6 +1,7 @@
 # Test Cases. Level 2: Negative & Boundary Validation (UI)
 
 **Target System under Test (SUT):** Practice Software Testing (e-commerce platform)
+
 **Testing Scope:** Shopping Cart — Quantity fields and boundary values
 
 ## Item 2.1: Decrease item quantity to zero or enter "0" manually
