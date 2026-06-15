@@ -69,5 +69,5 @@
  1. The product row "Combination Pliers" completely disappears from the Cart page.
  2. The system displays a confirmation message (e.g., "Product removed from shopping cart").
  3. The cart badge counter in the header drops back to 0 (or disappears).
- 4. The page displays an empty state message: **"Your cart is empty"**.
+ 4. The page displays an empty state message: **"The cart is empty. Nothing to display"**.
 
