@@ -52,3 +52,22 @@
  1. The system displays a specific warning toast notification in the top-right corner: **"You can order at most 99 of this product."**
  2. The system automatically caps the input and sets the Quantity field to the maximum allowed limit: **99**.
  3. The Total price is dynamically and mathematically correctly recalculated for 99 items.
+
+---
+
+## Item 2.4: Complete removal of an item from the cart using the Delete button
+
+ **Pre-conditions:** The shopping cart contains 1 item ("Combination Pliers"). User is on the Cart page.
+
+ **Steps:**
+  
+ 1. Locate the Delete button (trash bin icon / "X") at the end of the "Combination Pliers" product row.
+ 2. Click the Delete button.
+
+**Expected Result (UI):**
+
+ 1. The product row "Combination Pliers" completely disappears from the Cart page.
+ 2. The system displays a confirmation message (e.g., "Product removed from shopping cart").
+ 3. The cart badge counter in the header drops back to 0 (or disappears).
+ 4. The page displays an empty state message: **"Your cart is empty"**.
+
