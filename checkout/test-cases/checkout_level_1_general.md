@@ -15,7 +15,7 @@
   1. On the Cart page, click the **"Proceed to checkout"** button.
   2. On the authentication step, select the **"Continue as guests"** tab.
   3. Fill in the required fields with valid data: *Email address, First name, Last name* and click the button.
-  4. Verify that the system displays the text: `"continuing as guests: [First name] [Last name] ([Email])"`.
+  4. Verify that the system displays the text: `"continuing as guests: [First name] [Last name] [Email]"`.
   5. Click the **"proceed to checkout"** button.
   6. On the Billing Address step, select the country and enter a valid **Postal code** (e.g., `10001`) and **House number** (e.g., `123`).
   7. Wait for the Address Autocomplete feature to fill in *street, city, and state*.
