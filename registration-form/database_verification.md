@@ -40,6 +40,6 @@ Expected Result (Data Integrity Checklist):
  - first_name matches exactly with Item 1.1 input (John).
  - last_name matches exactly with Item 1.1 input (Doe).
  - email matches exactly with Item 1.1 input (john.doe.test@gmail.com).
- - phone matches exactly with Item 1.1 input (+12125550199).
+ - phone matches exactly with Item 1.1 input (12125550199).
 3.Primary Key Generation: The id field is automatically generated, unique, and serves as the internal identifier.
 
