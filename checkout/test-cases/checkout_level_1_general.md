@@ -23,6 +23,33 @@
   10. Verify that the notification `"payment was successful"` appears and the **"confirm"** button becomes active.
   11. Click the **"confirm"** button to finalize the order.
 
+---
+
+## Item 1.3: Complete a successful purchase as a Guest via Credit Card
+
+**Pre-conditions:** * The shopping cart contains at least 1 item.
+  * The user is on the Cart page in Guest Mode.
+
+**Steps:**
+
+  1. Advance through the checkout steps to the Payment stage using Guest Mode.
+  2. Select the **"Credit Card"** payment method.
+  3. Fill in all credit card fields with validly formatted dummy data:
+
+     *Credit Card:* `1111-2222-3333-4444` (including hyphens)
+     *Expiration Date:* Any future date
+     *CVV:* `123`
+     *Card Holder Name:* `IVAN IVANOV`
+     
+  5. Verify that the notification `"payment was successful"` appears and the **"Confirm"** button becomes active.
+  6. Click the **"Confirm"** button.
+
+**Expected Result (UI):**
+
+  1. The system processes the credit card payment successfully.
+  2. The page displays the success message: **"Thanks for your order!"**
+  3. A unique invoice number is generated (e.g., `INV-2026XXXXXX`).
+
 **Expected Result (UI):**
 
   1. The system successfully processes the order.
