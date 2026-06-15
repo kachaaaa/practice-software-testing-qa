@@ -55,10 +55,12 @@
   3. Fill in all credit card fields with validly formatted dummy data:
 
      *Credit Card:* `1111-2222-3333-4444` (including hyphens)
+
      *Expiration Date:* Any future date
+
      *CVV:* `123`
+
      *Card Holder Name:* `IVAN IVANOV`
-     
   5. Verify that the notification `"payment was successful"` appears and the **"Confirm"** button becomes active.
   6. Click the **"Confirm"** button.
 
