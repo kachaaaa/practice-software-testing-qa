@@ -13,7 +13,7 @@
  1. Locate the quantity input field for "Combination Pliers".
  2. Click the minus (**"-"**) button to decrease the quantity from 1 to 0 (or manually type `0` into the field and press Enter/click outside).
 
-* **Expected Result (UI):**
+ **Expected Result (UI):**
   
  1. The system displays a toast notification in the top-right corner: **"Product quantity updated."**
  2. The system automatically overrides the invalid value `0` and resets the Quantity field back to **1**.
