@@ -51,3 +51,25 @@
   2. **Payment Info** states the exact method used (e.g., `Cash on Delivery Method`).
   3. **Billing Address** displays complete fields: Street, Postal Code, City, State, and Country.
   4. **Products Table** explicitly lists the correct item details (`Combination Pliers`), correct quantity (`1`), and the final price summation matches perfectly.
+
+---
+
+## Item 1.3: Session Timeout and Unauthorized API Requests (Level 3 / Edge Case)
+
+**Pre-conditions:**
+  
+  * The user is logged in.
+  * The user remains inactive on the Invoice Details page for a period exceeding the server's session lifetime configuration.
+
+**Steps:**
+  
+  1. Open Browser DevTools (Network tab).
+  2. Navigate to any Invoice Details page and wait without interacting with the UI (triggering an idle timeout).
+  3. After the idle period, click the **"Download PDF"** button.
+  4. Observe the HTTP status code in DevTools and the subsequent page refresh behavior.
+
+**Expected Result:**
+  
+  1. The API request for the PDF returns a **`401 Unauthorized`** status code due to an expired session token/cookie.
+  2. The UI gracefully handles the expiration (e.g., displaying a timeout alert or blocking the download).
+  3. Upon the next page refresh or navigation attempt, the user is correctly redirected to the `/login` page.
