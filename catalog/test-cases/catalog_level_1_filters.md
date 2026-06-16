@@ -46,6 +46,28 @@
 
 ---
 
+## Item 1.3: Dynamic product filtering via Price Range slider (AJAX)
+
+**Pre-conditions:**
+  
+  * The user is on the main Product Catalog page.
+  * The default price range slider is set to its maximum bounds (e.g., `1 - 200`).
+  * Multiple product cards with images and prices are displayed in the grid.
+
+**Steps:**
+  
+  1. Locate the **"Price Range"** slider in the left sidebar.
+  2. Drag the slider handles to narrow down the price interval (e.g., set it to `50 - 150`).
+  3. Observe the behavior of the product grid and check if any page reload occurs.
+
+**Expected Result (UI):**
+  
+  1. The product grid updates dynamically on the fly (real-time AJAX filtering) as the slider moves.
+  2. No page reload or submission via an extra "Apply" button is required.
+  3. Only products with prices strictly within the newly selected range remain visible in the grid.
+
+---
+
 # Test Cases. Level 2: Combined Filter Logic & Conflict Validation (UI)
 
 ## Item 2.1: Combine Text Search with Conflicting Category Filter
