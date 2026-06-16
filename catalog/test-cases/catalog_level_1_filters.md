@@ -68,6 +68,28 @@
 
 ---
 
+## Item 1.4: Persistence of Sort Selection during Price Range Adjustment
+
+**Pre-conditions:**
+  
+  * The user is on the main Product Catalog page.
+  * Default state: All products are displayed, price range is set to maximum bounds.
+
+**Steps:**
+  
+  1. Click on the **"Sort"** dropdown and select any sorting criteria (e.g., **"Name A-Z"** or **"Price: Low to High"**).
+  2. Verify that the product grid rearranges according to the selected sorting rule.
+  3. Locate the **"Price Range"** slider in the left sidebar and adjust it to a narrow interval (e.g., `1 - 17`).
+  4. Observe whether the product grid filters the items and checks if the sorting rule remains applied.
+
+**Expected Result (UI):**
+  
+  1. The selected sorting criteria remains active and persistently applied even after adjusting the price slider.
+  2. The system does not reset the sorting state back to default when a new price boundary is introduced.
+  3. The product grid displays only items priced between $1 and $17, strictly ordered by the active sorting rule.
+
+---
+
 # Test Cases. Level 2: Combined Filter Logic & Conflict Validation (UI)
 
 ## Item 2.1: Combine Text Search with Conflicting Category Filter
