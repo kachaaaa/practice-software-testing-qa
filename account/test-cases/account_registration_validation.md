@@ -2,7 +2,7 @@
 
 **Target System under Test (SUT):** Practice Software Testing
 
-**Testing Scope:** Customer Registration Form Fields (`account/test-cases/`)
+**Testing Scope:** Customer Registration Form Fields 
 
 ## Item 1.1: Successful preservation of form data upon validation error (Level 2)
 
@@ -47,3 +47,28 @@
   1. The eye icon toggles the visibility of the password text between masked dots and plain text.
   2. As the password meets all criteria, the checklist indicators update accordingly.
   3. The **Password strength** indicator dynamically updates its state (e.g., switches to *Strong*, *Very Strong*, or *Excellent* based on entropy).
+
+---
+
+## Item 1.3: Successful Customer Registration with Login Redirect (E2E)
+
+**Pre-conditions:**
+
+  * The user is on the "Customer registration" page.
+  * The user prepares unique, completely valid data (including a brand-new email address).
+
+ **Steps:**
+ 
+  1. Fill in all registration fields with valid test data (e.g., First name: `Alex`, Last name: `Ford`, valid DOB, phone).
+  2. Input valid postal details to ensure address auto-completion is successful.
+  3. Enter a completely unique valid email address (e.g., `alex.ford_test@gmail.com`).
+  4. Enter a password that satisfies all security conditions (e.g., `Qwerty!987`).
+  5. Click the registration submit button.
+  6. Observe the application's redirect behavior.
+  7. On the newly opened page, attempt to log in using the freshly registered credentials.
+
+**Expected Result (UI):**
+
+  1. The form submits successfully without any validation alerts.
+  2. **Redirect Logic:** The system automatically redirects the user back to the **Login** page.
+  3. The user inputs the newly registered email and password, clicks the "Login" button, and successfully gains access to their personal **My Account** dashboard.
