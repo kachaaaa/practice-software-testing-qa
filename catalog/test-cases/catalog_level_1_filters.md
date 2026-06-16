@@ -1,6 +1,7 @@
 # Test Cases. Level 1: Product Catalog & Category Filtering (UI)
 
 **Target System under Test (SUT):** Practice Software Testing
+
 **Testing Scope:** Side Navigation Filter Panel — Category Checkboxes
 
 ## Item 1.1: Bulk selection via Parent Category checkbox (Top-Down Logic)
